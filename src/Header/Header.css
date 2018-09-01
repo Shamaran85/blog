@@ -1,0 +1,104 @@
+/* Logo (Top Header) */
+
+.logo {
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.logo h1 a {
+    font-size: 60px;
+    color: #363940;
+    text-decoration: none;
+    transition: 200ms ease;
+}
+
+.logo h1 a:hover {
+    color: #818592;
+}
+
+.logo p {
+    font-size: 26px;
+    color: #c7c7c7;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+/* Navbar (Bottom Header) */
+
+.navbar-container {
+    margin: 40px auto;
+    border-top: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar {
+    max-width: 960px;
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+    padding: 0;
+}
+
+.navbar li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.1s ease all;
+    text-transform: uppercase;
+    color: #363940;
+}
+
+.navbar li a:hover {
+    color: #818592;
+}
+
+.navbar li:first-child a {
+    padding-left: 0;
+}
+
+.navbar .search-container {
+    float: right;
+    margin-top: 5px;
+}
+
+.navbar input[type=text] {
+    border: 1px solid #F0F0F0;
+    color: #7F7F7F;
+    height: 32px;
+    padding: 10px;
+    width: 300px;
+    outline: none;
+}
+
+.navbar .search-container button {
+    float: right;
+    font-size: 14px;
+    height: 32px;
+    width: 32px;
+    padding: 6px 10px;
+    border: none;
+    background-color: #F0F0F0;
+    cursor: pointer;
+    transition: 200ms ease all;
+}
+
+.navbar .search-container button:hover {
+    color: #fff;
+}
