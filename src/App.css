@@ -8,6 +8,26 @@ font-family: 'Libre Franklin', sans-serif; */
 }
 
 body {
+    background-color: #f4f4f4;
+    color: #444;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#main {
+    flex: 1 1 750px;
+    width: 750px;
+}
+
+#sidebar {
+    flex: 1 1 360px;
+    margin-left: 30px;
 }

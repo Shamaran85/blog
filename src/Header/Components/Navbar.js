@@ -16,7 +16,7 @@ const navbar = () => (
 
     <div className="navbar-container">
         <ul className="navbar">
-            <li><a href="#home">Home</a></li>
+            <li><a className="active" href="#home">Home</a></li>
             <li><a href="#breakfast">Breakfast</a></li>
             <li><a href="#lunch">Lunch</a></li>
             <li><a href="#dinner">Dinner</a></li>
@@ -25,7 +25,7 @@ const navbar = () => (
 
             <div className="search-container">
                 <form>
-                    <input type="text" placeholder="Search.." />
+                    <input type="text" placeholder="Search recipe..." />
                     <button type="submit"><i className="fa fa-search"></i></button>
                 </form>
             </div>

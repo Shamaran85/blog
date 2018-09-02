@@ -1,0 +1,67 @@
+.widget-container {
+    background: #fff;
+    margin-bottom: 50px;
+    box-shadow: 0 0 2px 0 rgba(51, 51, 51, 0.08), 0 0 2px 0 rgba(51, 51, 51, 0.08);
+}
+
+.latestpost-item {
+    padding-left: 0;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e2e2e2;
+    overflow: hidden;
+}
+
+.latestpost-item:last-child {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.latestposts-widget {
+    padding: 35px 30px;
+    text-align: left;
+}
+
+.latestposts-widget h3 {
+    font-family: "Roboto Slab", serif;
+    color: #444;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.latestposts-widget img {
+    width: 100%;
+    height: auto;
+    transition: 500ms ease;
+}
+
+.latestposts-widget img:hover {
+    transform: scale(1.07);
+    opacity: 0.7;
+}
+
+.latestposts-widget h4 {
+    margin: 12px 0 0 0;
+}
+
+.latestposts-widget h4 a {
+    color: #444;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: 300ms ease all;
+}
+
+.latestposts-widget h4 a:hover {
+    color: #777;
+}
+
+.latestposts-widget p {
+    font-style: italic;
+    font-size: 14px;
+    color: #777;
+    margin: 8px 0;
+}

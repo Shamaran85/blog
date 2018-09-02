@@ -23,6 +23,10 @@
     color: #818592;
 }
 
+.logo h1 a span {
+    color: #a0ce4e;
+}
+
 .logo p {
     font-size: 26px;
     color: #c7c7c7;
@@ -33,17 +37,18 @@
 /* Navbar (Bottom Header) */
 
 .navbar-container {
-    margin: 40px auto;
-    border-top: 1px solid #F0F0F0;
-    border-bottom: 1px solid #F0F0F0;
+    background-color: #f8f8f8;
     text-align: center;
     padding: 10px 0;
+    margin: 40px auto;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
 }
 
 .navbar {
-    max-width: 960px;
-    font-size: 18px;
     font-family: "Roboto Condensed", sans-serif;
+    max-width: 1140px;
+    font-size: 18px;
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
@@ -65,8 +70,8 @@
     color: #363940;
 }
 
-.navbar li a:hover {
-    color: #818592;
+.navbar li a:hover, .navbar li a.active {
+    color: #a0ce4e;
 }
 
 .navbar li:first-child a {
@@ -75,30 +80,38 @@
 
 .navbar .search-container {
     float: right;
-    margin-top: 5px;
 }
 
 .navbar input[type=text] {
-    border: 1px solid #F0F0F0;
-    color: #7F7F7F;
-    height: 32px;
-    padding: 10px;
-    width: 300px;
+    width: 350px;
+    color: #b6b6b6;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    background: #fafafa;
+    border: 1px solid #eeeeee;
     outline: none;
+    border-radius: 0;
+    padding: 10px 15px;
+}
+
+.navbar input[type=text]:focus {
+    border-color: #a0ce4e;
 }
 
 .navbar .search-container button {
     float: right;
     font-size: 14px;
-    height: 32px;
-    width: 32px;
+    height: 38px;
+    width: 38px;
     padding: 6px 10px;
     border: none;
-    background-color: #F0F0F0;
+    color: #fff;
+    background-color: #a0ce4e;
     cursor: pointer;
     transition: 200ms ease all;
 }
 
 .navbar .search-container button:hover {
-    color: #fff;
+    background-color: #ccc;
 }
